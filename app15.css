@@ -1,0 +1,30 @@
+body{
+          margin: 0;
+          padding: 0;
+          height: 200cm;
+}
+
+div{
+          height: 2cm;
+          width: 100%;
+          text-align: center;
+          font-size: 40px;
+          color:red;
+}
+
+.a{
+          background-color: yellow;
+
+}
+
+.b{
+         background-color: blue; 
+}
+
+.c{
+          background-color: black;
+}
+
+.d{
+          background-color: chartreuse;
+}
