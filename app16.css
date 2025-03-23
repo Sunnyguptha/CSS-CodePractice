@@ -1,0 +1,85 @@
+/*
+
+body{
+          margin: 0;
+          padding: 0;
+}
+
+.a{
+          background-color: yellow;
+          text-align: justify;
+          padding: 5px;
+}
+
+#image1{
+          float: left;
+}
+
+#image2{
+          float: right;
+}
+
+.b{
+          background-color: green;
+}
+
+*/
+
+/*
+body{
+          margin: 0;
+          padding: 0;
+}
+
+div{
+          float: left;
+
+}
+.a{
+          background-color: pink;
+}
+
+.b{
+          background-color: blueviolet;
+}
+
+.c{
+          background-color: aqua;
+}
+
+.d{
+          background-color: chartreuse;
+          clear: left;
+}
+          */
+
+          div{
+
+                    
+          }
+
+          .a{
+                    background-color: yellow;
+                    width: 50%;
+                    float: left;
+
+          }
+
+          .b{
+                    background-color: aqua;
+
+                    width: 50%;
+
+                    float: right;
+          }
+
+          .c{
+                    background-color: blanchedalmond;
+                    clear: both;
+          }
+
+          .d{
+                    background-color: chartreuse;
+
+          }
+
