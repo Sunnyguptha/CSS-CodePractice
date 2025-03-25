@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+,<html>
+
+<head>
+          <title>CSS pseudo Element </title>
+
+          <style>
+                    /* drop cap   */
+
+                    p::first-letter{
+                              font-size: 30px;
+                              background-color: red;
+                              color: white;
+                              border-radius: 10px;
+                    }
+
+                    /*  Selection  */
+
+                    p::selection{
+                              background-color: black;
+                              color: white;
+                    }
+
+                    /*
+                    p{
+                              color: white;
+                    } */
+
+                    /* first-line  */
+                    p::first-line{
+                              background-color: yellow;
+                              color: red;
+                    }
+
+
+
+          </style>
+
+</head>
+
+<body>
+
+          <p>
+                    Employees are the backbone of any company, and their contributions play a crucial role in an
+                    organization's success. To streamline employee-related operations, I designed and developed a
+                    comprehensive Employee Management System that facilitates record management, task assignment, and
+                    performance tracking.
+
+                    This system enables administrators to efficiently manage the entire employee lifecycle—including
+                    adding, editing, transferring, promoting, or terminating employees—while enhancing organizational
+                    workflow and efficiency.
+          </p>
+
+</body>
+
+</html>

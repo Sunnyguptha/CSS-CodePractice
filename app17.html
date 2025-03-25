@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+,<html>
+
+<head>
+          <title>CSS Combinators</title>
+
+          <style>
+                   /*  desandent ( denot by space)*/
+                   div p{
+
+                    background-color: yellow;
+
+                   }
+
+                   ul li{
+                    background-color: red;
+                   }
+
+                   /*  child  */
+
+                   .a>p{
+                    background-color: blue;
+
+                   }
+
+                   .b>p{
+                    background-color: aqua;
+                   }
+                   h1>p{
+                    background-color: chartreuse;
+                   }
+
+                   /*  adjustant sibling */
+
+                   div+p{
+                    background-color: chocolate;
+                   }
+
+                   h1+p{
+                    background-color: blueviolet;
+                   }
+
+                   /* general sibling  */
+
+                   div~p{
+
+                    background-color: darkorange;
+                   }
+
+
+          </style>
+
+</head>
+
+
+<body>
+
+          <ul>
+                    <li>sunny</li>
+                    <li>sunny</li>
+                    <li>sunny</li>
+                    <li>sunny</li>
+
+          </ul>
+          
+          <div class="a">
+                    Container 1
+                    <p>Paragraph 1</p>
+                    <p>Paragraph 2</p>
+
+                    <div class="b">
+                              <p>new Paragraph</p>
+                    </div>
+
+                    <p>Paragraph 3</p>
+                   
+
+          </div>
+
+          <p>Paragraph 4</p>
+          <p>Paragraph 5</p>
+          <p>Paragraph 6</p>
+        
+          <h1>First Heading
+          <p>Paragraph 7</p>
+          <p>Paragraph 8</p>
+          <p>Paragraph 9</p>
+</h1>
+
+         
+          <p>Paragraph 10</p>
+          <p>Paragraph 11</p>
+          <p>Paragraph 12</p>
+          <p>Paragraph 13</p>
+          <p>Paragraph 14</p>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+          margin: 0;
+          padding: 0;
+}
+
+h1{
+          background-color: blue;
+          color: white;
+          text-align: center;
+}
+
+h2::before{
+          content:"hello coder";
+          display: block;
+          background-color: red;
+          text-align: center;
+          color: blue;
+
+          font-size: 10px;
+}
+
+h2::after{
+          content:"Lets learn coding together";
+          display: block;
+          background-color: red;
+          text-align: center;
+          color: blue;
+          font-size: 10px;
+}
