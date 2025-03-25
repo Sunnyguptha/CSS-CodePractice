@@ -6,49 +6,48 @@
           <title>CSS Combinators</title>
 
           <style>
-                   /*  desandent ( denot by space)*/
-                   div p{
+                    /*  desandent ( denot by space)*/
+                    div p {
 
-                    background-color: yellow;
+                              background-color: yellow;
 
-                   }
+                    }
 
-                   ul li{
-                    background-color: red;
-                   }
+                    ul li {
+                              background-color: red;
+                    }
 
-                   /*  child  */
+                    /*  child  */
 
-                   .a>p{
-                    background-color: blue;
+                    .a>p {
+                              background-color: blue;
 
-                   }
+                    }
 
-                   .b>p{
-                    background-color: aqua;
-                   }
-                   h1>p{
-                    background-color: chartreuse;
-                   }
+                    .b>p {
+                              background-color: aqua;
+                    }
 
-                   /*  adjustant sibling */
+                    h1>p {
+                              background-color: chartreuse;
+                    }
 
-                   div+p{
-                    background-color: chocolate;
-                   }
+                    /*  adjustant sibling */
 
-                   h1+p{
-                    background-color: blueviolet;
-                   }
+                    div+p {
+                              background-color: chocolate;
+                    }
 
-                   /* general sibling  */
+                    h1+p {
+                              background-color: blueviolet;
+                    }
 
-                   div~p{
+                    /* general sibling  */
 
-                    background-color: darkorange;
-                   }
+                    div~p {
 
-
+                              background-color: darkorange;
+                    }
           </style>
 
 </head>
@@ -63,7 +62,7 @@
                     <li>sunny</li>
 
           </ul>
-          
+
           <div class="a">
                     Container 1
                     <p>Paragraph 1</p>
@@ -74,21 +73,21 @@
                     </div>
 
                     <p>Paragraph 3</p>
-                   
+
 
           </div>
 
           <p>Paragraph 4</p>
           <p>Paragraph 5</p>
           <p>Paragraph 6</p>
-        
-          <h1>First Heading
-          <p>Paragraph 7</p>
-          <p>Paragraph 8</p>
-          <p>Paragraph 9</p>
-</h1>
 
-         
+          <h1>First Heading
+                    <p>Paragraph 7</p>
+                    <p>Paragraph 8</p>
+                    <p>Paragraph 9</p>
+          </h1>
+
+
           <p>Paragraph 10</p>
           <p>Paragraph 11</p>
           <p>Paragraph 12</p>
@@ -99,4 +98,5 @@
 
 
 </body>
+
 </html>
